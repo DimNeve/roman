@@ -1,0 +1,39 @@
+body {
+  background-color: #048b9a;
+  font-size: 1.4em;
+}
+#main {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+}
+a:link,
+a:visited {
+  background-color: #05bcd1;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #21a6b5;
+}
+#good {
+  display: none;
+  text-align: center;
+}
+#good img {
+  max-width: 200px;
+}
+#bad {
+  display: none;
+  text-align: center;
+}

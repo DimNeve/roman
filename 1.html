@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+
+            <h1>Question numéro 1</h1>
+            <p>En quelle année le tennis a-t-il été créé ? (A 10 années près)</p>
+            <label for="answer">Choisi une réponse : </label>
+            <form>
+                <select name="answer" id="answer">
+                    <option value="false">----------</option>
+                    <option value="false">1810-1830</option>
+                    <option value="false">1830-1850</option>
+                    <option value="true">1850-1870</option>
+                    <option value="false">1870-1890</option>
+                </select>
+                <button>Valider</button>
+            </form>
+            
+            <div id="good">
+                <!-- <p>Bonne réponse !!!</p> -->
+                <img src="./image/congrats.gif">
+                <p>
+                    <a href="2.html">Question suivante</a>
+                </p>
+            </div>
+            <div id="bad">
+                
+                <p>Pas de chance, mauvaise date :-(</p>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+
+</html>
